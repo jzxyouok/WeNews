@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">微信精选</string>
+    <string name="about_us">『关于』</string>
+    <string name="github_login">登录Github</string>
+    <string name="share_content">微信精选，精选优质微信内容，作者主页http://shenghaiyang.github.io</string>
+    <string name="about_help"> 模仿Meizhi，内容来自微信精选，接口由聚合API提供\n\n
+        代码开源，如果你想加入我，github地址：https://github.com/shenghaiyang/WeNews\n\n
+        如果你觉得不错，可以分享给你的朋友，这是我们最大的动力和支持</string>
+</resources>

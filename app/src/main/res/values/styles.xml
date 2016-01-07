@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Overflow主题 -->
+    <style name="OverflowLight" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/teal</item>
+    </style>
+
+    <style name="ToolBarLight" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="CollapsingToolbarTitleStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <!-- activity_about中标题栏TextView-->
+    <style name="AboutTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="AboutCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
